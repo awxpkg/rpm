@@ -1,7 +1,6 @@
 * ldap.forumsys.com ldap data
 ```
--bash-4.2# ldapsearch -W -h ldap.forumsys.com -D "uid=tesla,dc=example,dc=com" -b "dc=example,dc=com"
-Enter LDAP Password:
+-bash-4.2# ldapsearch -x -H ldap://ldap.forumsys.com -D "uid=tesla,dc=example,dc=com" -b "dc=example,dc=com" -w password
 # extended LDIF
 #
 # LDAPv3
